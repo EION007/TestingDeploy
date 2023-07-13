@@ -12,6 +12,6 @@ public class testcontroller {
 
   @GetMapping
   public ResponseEntity<String> testingData() {
-    return new ResponseEntity<>("Hello testing application", HttpStatus.OK);
+    return new ResponseEntity<>("Hello testing application updated", HttpStatus.OK);
   }
 }
